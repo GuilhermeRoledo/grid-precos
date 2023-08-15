@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #DDE6ED;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.grid__up{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.grid__item__up{   
+    background-color: #526D82;
+    width: 50rem;
+    text-align: left;
+    gap: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.grid__title__up{
+    padding: 30px 0 10px 20px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #57C5B6;
+}
+
+.grid__subtitle__up{
+    padding: 8px 0 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #B9EDDD;
+}
+
+.grid__paragraph__up{
+    padding: 6px 0 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ECF2FF;
+}
+
+.grid__down{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.grid__item__left{
+    background-color: #4A55A2;
+    width: 25rem;
+    text-align: center;
+    border-radius: 0 0 0 10px;
+}
+
+.grid__subtitle__left{
+    padding: 20px 0 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #57C5B6;
+}
+
+.grid__paragraph__left{
+    padding: 20px 0 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ECF2FF;
+}
+
+.destaque__paragrafo{
+    color: #B9EDDD;
+}
+
+input{
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border-bottom:1px solid #eee;
+    box-shadow:0 0 5px 0 #000000;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #57C5B6;
+}
+
+
+input:hover{
+    background-color: #7895CB;
+}
+
+.grid__item__right{
+    background-color: #1A5F7A;
+    width: 25rem;
+    text-align: center;
+    border-radius: 0 0 10px 0;
+}
+
+.grid__subtitle__right{
+    padding: 20px 0 5px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #57C5B6;
+}
+
+.grid__paragraph__right{
+    padding: 5px 0 0px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ECF2FF;
+}
+
+@media (max-width: 980px) {
+    .grid__item__up{
+        width: 100%;
+    }
+
+    .grid__item__left{
+        width: 50%;
+    }
+
+    .grid__item__right{
+        width: 50%;
+    }
+}
